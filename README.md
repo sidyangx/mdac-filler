@@ -101,6 +101,12 @@ Or use a JSON file:
 python3 scripts/fill_and_submit.py --file my_info.json
 ```
 
+### Security Notice
+
+Some security scanners (including VirusTotal) may flag this skill as high-risk due to the combination of handling passport/PII data and automating CAPTCHA interaction. **No data exfiltration or malicious behavior is present.** All data is sent only to the official MDAC website (`imigresen-online.imi.gov.my`). The CAPTCHA automation reads internal JavaScript state from the target page to calculate the correct slider position — this is a technical necessity to complete the form without user intervention.
+
+If you prefer to review the code before running, the full source is at [`scripts/fill_and_submit.py`](scripts/fill_and_submit.py).
+
 ### Security
 
 - **Use `--file` instead of `--data`** — command-line arguments are visible in process lists and shell history. Store your passport info in a local JSON file with restricted permissions:
@@ -200,6 +206,12 @@ python3 scripts/fill_and_submit.py --file my_info.json
 - 国籍/出生地代码（CHN、SGP 等）
 - 入境方式（陆路/空路/海路）
 - 柔佛州各城市代码
+
+### 安全声明
+
+部分安全扫描工具（包括 VirusTotal）可能因"处理护照等 PII 数据 + 自动化 CAPTCHA 操作"的组合将本 skill 标记为高风险。**本 skill 不存在任何数据泄露或恶意行为。** 所有数据仅发送至 MDAC 官方网站（`imigresen-online.imi.gov.my`）。CAPTCHA 自动化部分通过读取目标页面内的 JavaScript 状态来计算滑块正确位置，这是无人工干预完成表单的技术必要手段。
+
+如需在运行前审查代码，完整源码位于 [`scripts/fill_and_submit.py`](scripts/fill_and_submit.py)。
 
 ### 安全提示
 
