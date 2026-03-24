@@ -39,7 +39,7 @@
 
 **填写中的表单：**
 
-![MDAC 表单](screenshots/form.png)
+![MDAC 表单](assets/form.png)
 
 **过一会儿，🦞 回复：**
 
@@ -50,7 +50,7 @@
 
 **成功截图：**
 
-![提交成功](screenshots/success.png)
+![提交成功](assets/success.png)
 
 ---
 
