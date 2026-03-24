@@ -1,6 +1,6 @@
 ---
 name: mdac-filler
-description: Auto-fill and submit Malaysia Digital Arrival Card (MDAC) for travelers entering Malaysia. Use when a user wants to fill or submit MDAC (马来西亚数字入境卡) for Malaysia entry. Handles form filling, slider CAPTCHA bypass, and submission automatically. Requires traveler info: name, passport number, DOB, passport expiry, email, phone, arrival/departure dates, transport, accommodation address.
+description: "Auto-fill and submit Malaysia Digital Arrival Card (MDAC) for travelers entering Malaysia. Use when a user wants to fill or submit MDAC (马来西亚数字入境卡) for Malaysia entry. Handles form filling, slider CAPTCHA bypass, and submission automatically. Requires traveler info: name, passport number, DOB, passport expiry, email, phone, arrival/departure dates, transport, accommodation address."
 ---
 
 # MDAC Auto-Filler
