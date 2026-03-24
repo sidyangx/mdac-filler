@@ -137,5 +137,3 @@ python3 scripts/fill_and_submit.py --file my_info.json
 本项目也是一个 [OpenClaw](https://openclaw.ai) AgentSkill，可通过 [ClawHub](https://clawhub.com) 安装到你的 AI 助手中。
 
 ---
-
-*Built with 🦞 by [Jennie](https://openclaw.ai) — your AI assistant*
