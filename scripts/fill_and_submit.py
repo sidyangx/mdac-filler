@@ -151,8 +151,7 @@ async def solve_captcha(page):
 async def fill_and_submit(data: dict, screenshot_path: str = None):
     async with async_playwright() as p:
         browser = await p.chromium.launch(
-            headless=False,
-            args=['--disable-blink-features=AutomationControlled']
+            headless=False
         )
         ctx = await browser.new_context(
             user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
